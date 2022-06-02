@@ -30,7 +30,7 @@ struct KoloryRGB {
 
 int main(int arc, char * argv[]) {
 
-    FILE* f = fopen(argv[1], "rb");
+    FILE* f = fopen("test.bmp", "rb");
 
     if (f == nullptr)
     {
