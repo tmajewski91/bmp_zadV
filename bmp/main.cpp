@@ -30,7 +30,7 @@ struct KoloryRGB {
 
 int main(int arc, char * argv[]) {
 
-    FILE* f = fopen("test.bmp", "rb");
+    FILE* f = fopen("lis.bmp", "rb");
 
     if (f == nullptr)
     {
@@ -97,7 +97,7 @@ int main(int arc, char * argv[]) {
 
     /*************************/
 
-    FILE* w = fopen("negative.bmp", "wb");
+    FILE* w = fopen("lis-negative.bmp", "wb");
     if (w == nullptr)
     {
         printf("\n\n Can't open the file");
